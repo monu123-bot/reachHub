@@ -4,8 +4,9 @@ import Quote from './components/Quote';
 import CompanyNews from './components/CompanyNews';
 import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
 import { useState } from 'react';
-function App() {
+// import { config } from 'dotenv';
 
+function App() {
   
   return (
 

@@ -9,7 +9,7 @@ const CompanyNews = () => {
     const fetchCompanyNews = async (symbol, startDate, endDate) => {
         try {
             const apiKey = "cn7f9l9r01qgjtj4it20cn7f9l9r01qgjtj4it2g";
-            const url = `https://finnhub.io/api/v1/company-news?symbol=${symbol}&token=${apiKey}`;
+            const url = `https://finnhub.io/api/v1/company-news?symbol=${symbol}&from=${startDate}&to=${endDate}&token=${apiKey}`;
     
             const response = await fetch(url);
     
